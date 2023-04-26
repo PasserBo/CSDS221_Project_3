@@ -1,0 +1,28 @@
+<body>
+
+<div style="position:relative">
+    <audio controls style="position:absolute; left:630px; top:20px; z-index:2;" >
+        <source src="lightyear.mp3">
+    </audio>    
+    <img src="rfmenu.png" style="position:absolute; left:0; top:0; z-index:1;" />
+    <a href="selectmode.html"><img onmouseenter="bigImg(this)" onmouseleave="normalImg(this)" src="Start_button.png" width="220" height="60" style="position:absolute; left:660px; top:400px; z-index:2;" /></a>
+</div>
+
+<script>
+function bigImg(x) {
+  x.style.height = "66px";
+  x.style.width = "230px";
+  x.style.left="655px"; 
+  x.style.top="398px";
+}
+
+function normalImg(x) {
+  x.style.height = "60px";
+  x.style.width = "220px";
+  x.style.left="660px"; 
+  x.style.top="400px";
+}
+</script>
+
+
+</body>
